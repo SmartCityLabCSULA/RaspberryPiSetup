@@ -55,5 +55,5 @@ to stop `roscore` from starting at start up
     2. Scroll down to the bottom and change `export ROSBOTS_MASTER=1` to `export ROSBOTS_MASTER=0`
     3. Press `Ctrl-x` then press `y` to save the changes
     4. `sudo rm /etc/init.d/rosbots` to remove the `roscore` start up script
-    5. Restart the Pi
+    5. Restart the Pi by running `sudo reboot`
 8. Profit!
